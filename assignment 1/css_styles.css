@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=monospace');
+
+
+body{
+    background-color: peachpuff;
+    margin: 0;
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+    font-family: 'monospace;
+}
+
+.nav {
+    position: fixed;
+    background-color: peachpuff;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.logo img{
+    width: auto;
+    height: 50px;
+}
+
+.links a {
+    color: skyblue;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.links {
+    text-align: left;
+    padding-top: 10px;
+    font-size: 1.6rem;
+    word-spacing: 1.6rem;
+}
+
+#home {
+    padding: 40px; 
+    padding-top: 75px;
+}
+
+#home img{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aboutme {
+    height: 500px;
+    width: 470px;
+    padding: 40px;
+    padding-top: 60px;
+    color: palegreen;
+}
+
+#aboutmegrid{
+    display: grid;
+    grid grid-template-columns: 50% 50%;
+}
+
+aboutme h1{
+    height: 60px;
+}
+
+aboutmegallery {
+    display: grid;
+    word-spacing: normal;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+#aboutme img{
+    width: 165px;
+    height:auto;
+    margin: 10px;
+    text-align: center;
+}
+
+#portfolio{
+    height: 500px;
+    background-color: peachpuff;
+    display: grid;
+    grid grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    color: black;
+}
+
+#portfolio h1{
+    grid-column: 1/3;
+    height: 70px;
+    margin bottom: 0px;
+}
+
+#services{
+    height: 500px;
+    width: 470px;
+    padding: 40px;
+    padding-top: 60px;
+    color: palegreen;
+}
+
+#services{
+    height: 500px;
+    width: 470px;
+    padding: 40px;
+    padding-top: 60px;
+    color: palegreen;
+}
+
+a{
+    color: fuchsia;
+    text-align: center;
+    padding-top: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
